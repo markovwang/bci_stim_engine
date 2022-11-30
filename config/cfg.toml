@@ -1,0 +1,15 @@
+[display]
+width = 1920
+height = 1080
+target_fps = 144
+window_mode = "full"
+
+[stim.ssvep]
+len = 4
+freqs = [1.0, 2.0, 3.0, 4.0]
+pos = [[100.0, 100.0], [200.0, 200.0], [300.0, 300.0], [400.0, 400.0]]
+size = [50.0, 50.0, 50.0, 50.0]
+hint_color = "yellow"
+
+[path]
+font = "./YaHei.Consolas.1.12.ttf"

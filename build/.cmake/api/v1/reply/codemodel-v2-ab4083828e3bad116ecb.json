@@ -1,0 +1,381 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						9,
+						10,
+						11
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						4
+					]
+				},
+				{
+					"build" : "deps/SFML",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-deps.SFML-Debug-1e43c62568ab4b0c17de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "deps/SFML"
+				},
+				{
+					"build" : "deps/SFML/src/SFML",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-deps.SFML.src.SFML-Debug-45fa23c1a21a9dc2586c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "deps/SFML/src/SFML"
+				},
+				{
+					"build" : "deps/SFML/src/SFML/System",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-deps.SFML.src.SFML.System-Debug-443f8b215811dbe9de2d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "deps/SFML/src/SFML/System",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "deps/SFML/src/SFML/Main",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-deps.SFML.src.SFML.Main-Debug-f92970be04525f3b76a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "deps/SFML/src/SFML/Main",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "deps/SFML/src/SFML/Window",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-deps.SFML.src.SFML.Window-Debug-859f6b637fc8f1beada5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "deps/SFML/src/SFML/Window",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "deps/SFML/src/SFML/Network",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-deps.SFML.src.SFML.Network-Debug-054c5f6f99375c776522.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "deps/SFML/src/SFML/Network",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "deps/SFML/src/SFML/Graphics",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-deps.SFML.src.SFML.Graphics-Debug-865b0e1e4d97ed2be944.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "deps/SFML/src/SFML/Graphics",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "deps/SFML/src/SFML/Audio",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-deps.SFML.src.SFML.Audio-Debug-08cac0c4bf057c7beec6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "deps/SFML/src/SFML/Audio",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "deps/kafka/include",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-deps.kafka.include-Debug-cd378a3601d825bb1f8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "deps/kafka/include"
+				},
+				{
+					"build" : "deps/entt-3.10.3",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-deps.entt-3.10.3-Debug-58b45e27df835c194d14.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "deps/entt-3.10.3",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "deps/fmt-9.0.0",
+					"jsonFile" : "directory-deps.fmt-9.0.0-Debug-f3bebb674ceda8d35f8b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "deps/fmt-9.0.0",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "STIM_ENGINE",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "SFML",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "modern-cpp-kafka-api",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "EnTT",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "FMT",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "STIM_ENGINE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STIM_ENGINE-Debug-9c28ec87243e5bf8f391.json",
+					"name" : "STIM_ENGINE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "aob::@d88b7c2e2a921f14dc9b",
+					"jsonFile" : "target-aob-Debug-1949ffb62ce9a4a3fb1d.json",
+					"name" : "aob",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "engine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-engine-Debug-9a4d3ec03518ee199c23.json",
+					"name" : "engine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "fmt::@e886397f66a521f1fb97",
+					"jsonFile" : "target-fmt-Debug-bfc3ed05a5eb4a6daebb.json",
+					"name" : "fmt",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graphics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graphics-Debug-aec7b8167e56a2eb0d36.json",
+					"name" : "graphics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "sfml-audio::@89990d8e8ec2f0966067",
+					"jsonFile" : "target-sfml-audio-Debug-ad0fc51b5e29fb8eb27f.json",
+					"name" : "sfml-audio",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "sfml-graphics::@aa2617933ca2669ade5b",
+					"jsonFile" : "target-sfml-graphics-Debug-880590fa75ce1ca0f183.json",
+					"name" : "sfml-graphics",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "sfml-main::@df80e5d404c173632137",
+					"jsonFile" : "target-sfml-main-Debug-0cd30ee30ee16e451730.json",
+					"name" : "sfml-main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sfml-network::@7ddb6baa6a1b66ce72f3",
+					"jsonFile" : "target-sfml-network-Debug-84174a29b974c9a07cdc.json",
+					"name" : "sfml-network",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sfml-system::@49fd9136bdd6e855f7ef",
+					"jsonFile" : "target-sfml-system-Debug-55bad0614c8276a8c725.json",
+					"name" : "sfml-system",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "sfml-window::@91700ccb6113e3c16350",
+					"jsonFile" : "target-sfml-window-Debug-a0bef5dcc31f78db4d21.json",
+					"name" : "sfml-window",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/Essay/bishe/build",
+		"source" : "F:/Essay/bishe"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

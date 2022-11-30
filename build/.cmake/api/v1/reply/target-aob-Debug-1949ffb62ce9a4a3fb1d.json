@@ -1,0 +1,106 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"deps/entt-3.10.3/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 316,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "aob::@d88b7c2e2a921f14dc9b",
+	"name" : "aob",
+	"paths" : 
+	{
+		"build" : "deps/entt-3.10.3",
+		"source" : "deps/entt-3.10.3"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "deps/entt-3.10.3/.github/workflows/build.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "deps/entt-3.10.3/.github/workflows/coverage.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "deps/entt-3.10.3/.github/workflows/deploy.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "deps/entt-3.10.3/.github/workflows/sanitizer.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "deps/entt-3.10.3/.github/FUNDING.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "deps/entt-3.10.3/AUTHORS",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "deps/entt-3.10.3/CONTRIBUTING.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "deps/entt-3.10.3/LICENSE",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "deps/entt-3.10.3/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "deps/entt-3.10.3/TODO",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}

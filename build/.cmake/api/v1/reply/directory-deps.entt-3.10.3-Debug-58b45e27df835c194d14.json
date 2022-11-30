@@ -1,0 +1,103 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"deps/entt-3.10.3/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 224,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 259,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 266,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"build/deps/entt-3.10.3/entt.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/EnTT/cmake",
+			"exportName" : "EnTTTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "EnTT::@d88b7c2e2a921f14dc9b",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"deps/entt-3.10.3/CMakeFiles/Export/lib/EnTT/cmake/EnTTTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/EnTT/cmake",
+			"paths" : 
+			[
+				"build/deps/entt-3.10.3/EnTTConfig.cmake",
+				"build/deps/entt-3.10.3/EnTTConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "deps/entt-3.10.3/src",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "deps/entt-3.10.3",
+		"source" : "deps/entt-3.10.3"
+	}
+}
