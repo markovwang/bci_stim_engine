@@ -17,11 +17,11 @@ class Stimulation {
 
   bool running{true};
   sf::RenderWindow window;
-  stim_cfg config;
 
 public:
   Stimulation(stim_cfg &&_config);
   ~Stimulation() = default;
+  stim_cfg config;
 
   std::uint32_t update_per_sec{};
   std::uint32_t ts_n;
