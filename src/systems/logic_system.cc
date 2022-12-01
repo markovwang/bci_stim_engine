@@ -1,7 +1,7 @@
 /*
  * @Date: 2022-11-30 01:26:10
  * @LastEditors: markovwang markov_wang@outlook.com
- * @LastEditTime: 2022-12-02 02:30:38
+ * @LastEditTime: 2022-12-02 02:31:28
  * @FilePath: \bishe\src\systems\logic_system.cc
  */
 #include "SFML/Graphics/Color.hpp"
