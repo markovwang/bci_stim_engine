@@ -2,7 +2,7 @@
  * @Author: markovwang markov_wang@outlook.com
  * @Date: 2022-10-07 11:36:24
  * @LastEditors: markovwang markov_wang@outlook.com
- * @LastEditTime: 2022-11-29 19:40:17
+ * @LastEditTime: 2022-12-01 23:27:34
  * @FilePath: \bishe\src\engine\engine.cc
  */
 #include "engine.hpp"
@@ -24,6 +24,8 @@ Stimulation::Stimulation(stim_cfg &&_config) : config{_config} {
 
 void Stimulation::start() {
   std::unique_ptr<graphic> scene{std::make_unique<game_graphics>()};
+  // 此处对某个场景进行初始化
+  scene->init();
   using clock = std::chrono::high_resolution_clock;
   std::chrono::nanoseconds timestep{ts_n};
   std::chrono::nanoseconds acc{0};

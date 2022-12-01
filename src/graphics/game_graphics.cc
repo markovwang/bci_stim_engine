@@ -1,7 +1,7 @@
 /*
  * @Date: 2022-10-26 00:41:34
  * @LastEditors: markovwang markov_wang@outlook.com
- * @LastEditTime: 2022-12-01 01:01:34
+ * @LastEditTime: 2022-12-01 13:20:17
  * @FilePath: \bishe\src\graphics\game_graphics.cc
  */
 #include "SFML/Graphics/Color.hpp"
@@ -34,6 +34,11 @@ void game_graphics::init() {
   {
     manager.add_render_system(
         std::make_unique<render_system>(&stim->get_window()));
+  }
+  {
+    // 初始化刺激
+    auto& registry = manager.get_register();
+    
   }
 }
 
